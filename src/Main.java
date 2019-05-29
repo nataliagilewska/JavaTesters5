@@ -32,7 +32,8 @@ public class Main {
         koszulka.koszulkaWypisz();
 
         //Zad.5
-
-
+        Notatka notatka = new Notatka(DAY.PONIEDZIALEK, "Notatki z notatnika", jan );
+        notatka.wypiszNotatke();
+        jan.przedstawSie();
     }
 }
