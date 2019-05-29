@@ -17,6 +17,7 @@ public class Main {
         nowaKsiazka2.autor.przedstawSie();
         //System.out.println("Pierwsza ksiazka: Tytul: "+nowaKsiazka.tytul+" Autor: "+nowaKsiazka.autor.imie+" "+nowaKsiazka.autor.nazwisko);
         //System.out.println("Druga ksiazka: Tytul: "+nowaKsiazka2.tytul+" Autor: "+nowaKsiazka2.autor.imie+" "+nowaKsiazka2.autor.nazwisko);
+        //Zad. 3
         int ilosckontaktow =4;
         KsiazkaAdresowa ksiazkaAdresowa = new KsiazkaAdresowa(ilosckontaktow);
         for (int i=0; i<ilosckontaktow; i++)
@@ -25,5 +26,13 @@ public class Main {
             ksiazkaAdresowa.dodajKontakt(i, k);
         }
         ksiazkaAdresowa.pokazKontakty();
+
+        //Zad.4
+        Tshirt koszulka = new Tshirt(Kolor.BIALY, Rozmiar.M, 15);
+        koszulka.koszulkaWypisz();
+
+        //Zad.5
+
+
     }
 }
